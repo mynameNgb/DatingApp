@@ -23,7 +23,7 @@ namespace DatingApp.API.Controllers
             return Ok(values);
         }
 
-        // GET api/values/5
+        // GET api/value/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetValue(int id)
         {
